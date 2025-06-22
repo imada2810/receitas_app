@@ -23,9 +23,11 @@ class ReceitasApp extends StatelessWidget {
           elevation: 2,
           titleTextStyle: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
-        cardTheme: CardTheme(
+        cardTheme: const CardThemeData(
           elevation: 3,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.all(Radius.circular(15)),
+          ),
           margin: EdgeInsets.symmetric(vertical: 8, horizontal: 12),
           color: Colors.white,
         ),
