@@ -1,46 +1,61 @@
-# 🥗 Receitas Fitness - Aplicativo Flutter
+🥗 receitas_app
+Aplicativo de receitas fitness desenvolvido com Flutter. Permite visualizar, buscar e explorar receitas saudáveis, com foco em uma alimentação equilibrada. A versão web está disponível para acesso rápido.
 
-Aplicativo mobile desenvolvido em Flutter que apresenta receitas fitness com foco em alimentação saudável e prática.  
-O app lista receitas populares, detalha ingredientes e modo de preparo organizado em tópicos, e possui interface estilizada e responsiva para dispositivos móveis e web.
+📱 Demonstração
+📹 Vídeo de utilização do app:
+https://youtube.com/shorts/8XOmiArqDxQ?feature=share
 
----
+🌐 Versão web do app Flutter:
+🔗 Clique aqui para acessar
+https://receita-fit-app.netlify.app/
 
-## 📌 Objetivo do Projeto
+⚙️ Tecnologias utilizadas
+Flutter 3.x
 
-Criar um aplicativo funcional, com código limpo e bem estruturado, que facilite o acesso a receitas saudáveis e estimule um estilo de vida fitness.
+Dart
 
----
+Firebase (caso utilize autenticação, Firestore, etc.)
 
-## 📚 Tecnologias e Ferramentas Utilizadas
+HTTP para consumo de API
 
-- **Flutter 3.x** — framework para desenvolvimento multiplataforma (iOS, Android e Web)
-- **Dart** — linguagem de programação utilizada pelo Flutter
-- **Visual Studio Code** — editor de código recomendado
-- **Git** — controle de versão do código-fonte
-- **GitHub** — hospedagem do repositório e versionamento
+Provider (ou outro gerenciador de estado, se aplicável)
 
----
+FlutLab / Netlify (para hospedagem web)
 
-## ⚙️ Funcionalidades do Aplicativo
+🚀 Como executar o projeto
+✅ Pré-requisitos
+Flutter instalado 
 
-- Listagem de receitas fitness famosas com ingredientes e modo de preparo detalhado
-- Visualização do modo de preparo em tópicos, facilitando o acompanhamento
-- Interface moderna, responsiva e fácil de navegar
-- Compatível com dispositivos móveis e navegadores web
+Git instalado
 
----
+📥 Clonar o repositório
 
-## 📦 Instruções para Instalação e Execução
+git clone https://github.com/imada2810/receitas_app.git
+cd receitas_app
 
-### Pré-requisitos
+📦 Instalar dependências
 
-- Flutter instalado na máquina (versão 3.x recomendada)  
-- Git instalado  
-- Dispositivo ou emulador Android/iOS configurado ou navegador para web
+flutter pub get
 
-### Passos
+▶️ Rodar o app (dispositivo ou emulador)
 
-1. Clone o repositório:
+flutter run
 
-```bash
-git clone https://github.com/seu-usuario/receitas_app.git
+🌐 Rodar versão web
+
+flutter run -d chrome
+
+🗂️ Estrutura do projeto
+css
+
+lib/
+ ├── main.dart
+ ├── models/
+ ├── pages/
+ ├── widgets/
+ └── services/
+
+✍️ Autor
+Desenvolvido por Guilherme Imada
+GitHub: @imada2810
+
